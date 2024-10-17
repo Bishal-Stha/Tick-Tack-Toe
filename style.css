@@ -1,0 +1,61 @@
+#tictactoe{
+    display:grid;
+    grid-template-columns: repeat(3,80px);
+    gap:5px;
+    justify-content: center;
+    margin: 10px;
+
+    /* grid */
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    width: 100%;
+    /* background-color: red; */
+
+}
+h1{
+    text-align: center;
+}
+.box{
+    color: white;
+    background-color: #000;
+    font-size: 1.1rem;
+    height: 80px;
+    border-radius: 2.3px;
+}
+.box:hover{
+    transition: 0.3s 0.1s ease all;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    opacity:0.5;
+}
+.resetGame{
+    width: 120px;
+    height: 40px;
+    background-color: #100e0e86;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.newGame{
+    width: 120px;
+    height: 40px;
+    background-color: #100e0e86;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.message{
+font-family: 4rem;
+font-weight: 700;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+.hide{
+    display: none;
+}
